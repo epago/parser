@@ -1,0 +1,4 @@
+To compile:
+mvn clean install
+To run usins maven:
+mvn exec:java -Dexec.mainClass="Main"  -Dexec.args="3.1 4.3 + 5.0 +"
